@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 10px; }
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Indie Flower', cursive; }
+
+.btn {
+  text-decoration: none;
+  font-size: 5rem;
+  text-transform: capitalize;
+  text-align: center;
+  background-color: white;
+  border: 0.5rem dashed #b2fbb2;
+  border-radius: 1rem 5rem 1rem 5rem;
+  padding: 1rem 4rem;
+  position: relative;
+  top: 7rem;
+  cursor: pointer;
+  background-image: linear-gradient(to right, blue, green);
+  display: inline-block;
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: all .5s; }
+  .btn:hover {
+    background-image: linear-gradient(to right, green, blue);
+    transform: scale(0.5);
+    border: 0.4rem dashed white;
+    transition: all .5s; }
+
+.header {
+  background-image: url(../img/amarillo.jpg);
+  height: 100vh;
+  background-size: cover;
+  text-align: center; }
+  .header__container {
+    position: relative;
+    top: 33rem;
+    height: 20rem; }
+    .header__container-title {
+      text-transform: uppercase;
+      text-decoration: overline;
+      word-spacing: 2rem;
+      font-size: 7rem;
+      color: white; }
+      .header__container-title:hover {
+        color: #b2fbb2;
+        transition: all 1s; }
+
+.register {
+  height: 100rem;
+  background-image: linear-gradient(to right, #ece038, #b2fbb2);
+  display: flex;
+  justify-content: center; }
+  .register__container {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+    font-weight: 500;
+    width: 35rem;
+    height: 50rem;
+    position: relative;
+    top: 10rem;
+    background-color: rgba(250, 136, 116, 0.3);
+    border-radius: 20rem 20rem 0 0;
+    box-shadow: 1rem 2rem 5rem rgba(0, 0, 0, 0.5);
+    padding-top: 8rem; }
+    .register__container-input {
+      display: flex;
+      flex-direction: column;
+      padding: .5rem 5rem; }
+      .register__container-input input {
+        width: 25rem;
+        height: 3rem;
+        border-radius: 4rem;
+        border-color: #b2fbb2;
+        border: none; }
+      .register__container-input input:focus {
+        outline: none; }
+    .register__container-submit {
+      width: 24rem;
+      display: flex;
+      flex-direction: row;
+      border-radius: 4rem;
+      position: relative;
+      top: 3rem;
+      left: 5.5rem;
+      border-top: 1rem solid green; }
+    .register__container-submit1 {
+      padding-right: 4rem; }
+      .register__container-submit1 input {
+        font-family: 'Indie Flower', cursive;
+        border-radius: 3rem;
+        font-weight: bold;
+        color: green;
+        padding: .8rem 2rem;
+        background-color: white;
+        border: none; }
+        .register__container-submit1 input input:focus {
+          outline: none; }
+    .register__container-submit2 input {
+      font-family: 'Indie Flower', cursive;
+      border-radius: 3rem;
+      font-weight: bold;
+      color: green;
+      padding: .8rem 2rem;
+      background-color: white;
+      border: none; }
+      .register__container-submit2 input input:focus {
+        outline-style: none; }

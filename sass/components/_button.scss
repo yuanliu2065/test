@@ -1,0 +1,27 @@
+.btn {
+  text-decoration: none;
+  font-size: 5rem;
+  text-transform: capitalize;
+  text-align: center; 
+  background-color: $color-white;
+  border: .5rem dashed $color-green;
+  border-radius: 1rem 5rem 1rem 5rem;
+  padding: 1rem 4rem;
+  position: relative;
+  top: 7rem;
+  cursor: pointer;
+
+  background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+  display: inline-block;
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: all .5s;
+
+
+  &:hover {
+    background-image: linear-gradient(to right, $color-primary-dark, $color-primary-light);
+    transform: scale(.5);
+    border: .4rem dashed $color-white;
+    transition: all .5s;
+  }
+}

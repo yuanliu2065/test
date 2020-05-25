@@ -1,0 +1,86 @@
+.register {
+  height: 100rem;
+  background-image: linear-gradient(to right, $color-yellow, $color-green);
+  display: flex;
+  justify-content: center;
+
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+    font-weight: 500;
+    width: 35rem;
+    height: 50rem;
+    position: relative;
+    top: 10rem;
+    background-color: rgba($color-peach, .3);
+    border-radius: 20rem 20rem 0 0;
+    box-shadow: 1rem 2rem 5rem rgba($color-black, .5);
+    padding-top: 8rem;
+    
+    &-input {
+      display: flex;
+      flex-direction: column;
+      padding: .5rem 5rem;
+
+      input {
+        width: 25rem;
+        height: 3rem;
+        border-radius: 4rem;
+        border-color: $color-green;
+        border: none;
+      }
+      input:focus {
+        outline: none;
+      }
+    }
+     
+    &-submit {
+      width: 24rem;
+      display: flex;
+      flex-direction: row;
+      border-radius: 4rem;
+      position: relative;
+      top:  3rem;
+      left: 5.5rem;
+      border-top: 1rem solid $color-primary-dark;
+    
+    }
+
+    &-submit1 {
+     padding-right: 4rem;
+
+    input {
+      font-family: 'Indie Flower', cursive;
+      border-radius: 3rem;
+      font-weight: bold;
+      color: $color-primary-dark;
+      padding: .8rem 2rem;
+      background-color: $color-white;
+      border: none;
+
+      input:focus {
+        outline: none;
+      }
+    }
+    }
+
+    &-submit2 {
+      
+      input {
+        font-family: 'Indie Flower', cursive;
+        border-radius: 3rem;
+        font-weight: bold;
+        color: $color-primary-dark;
+        padding: .8rem 2rem;
+        background-color: $color-white;
+        border: none;
+
+        input:focus {
+          outline-style: none;
+        }
+      }
+    }
+  }
+}
